@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Celia</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://cdn.bootcdn.net/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lato&family=Montserrat:wght@600&family=Noto+Serif+TC:wght@700&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- 導航 -->
+    <nav class="nav">
+      <ul>
+        <li><a href="#">首頁</a></li>
+        <li><a href="#service">服務</a></li>
+        <li><a href="#price">價格</a></li>
+        <li><a href="#about">我們</a></li>
+        <li><a href="#contact">聯繫</a></li>
+      </ul>
+    </nav>
+    <!-- 主要內容 -->
+    <main class="content">
+
+    <header class="header">
+      <h1>LOGO</h1>
+    </header>
+
+    <!-- slider start -->
+    <div class="slider-box">
+
+      <div class="slider">
+        <img src="https://images.pexels.com/photos/620337/pexels-photo-620337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="1000" height="550" alt="最優方案">
+        <div class="left-top">
+          <span class="tag animate-bottom">最優方案</span>
+        </div>
+      </div>
+      <div class="slider" style="display:none">
+        <img src="https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="1000" height="550" alt="合理價格">
+        <div class="middle">
+          <span class="tag animate-bottom">合理價格</span>
+        </div>
+      </div>
+      <div class="slider"style="display:none">
+        <img src="https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="1000" height="550" alt="最優服務">
+        <div class="right-top">
+          <span class="tag animate-bottom">最優服務</span>
+        </div>
+      </div>
+
+      <div class="tool-bar">
+        <div class="row">
+          <div class="col l1">
+            <span onclick="page(-1)" class="page-btn"><i class="fa fa-chevron-circle-left"></i></span>
+          </div>
+          <div class="col l10">
+            <div class="center-align">
+              <span class="dots active" onclick="go(1)"></span>
+              <span class="dots" onclick="go(2)"></span>
+              <span class="dots" onclick="go(3)"></span>
+            </div>
+          </div>
+          <div class="col l1">
+            <div class="right-align">
+              <span onclick="page(1)" class="page-btn"><i class="fa fa-chevron-circle-right"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- slider end -->
+    </div>
+
+    <!-- service start -->
+    <div id="service">
+      <div class="center-align">
+        <h2 class="bottom-bar">提供什麼服務</h2>
+      </div>
+      <div class="row">
+        <div class="col l3 m6 s12">
+          <div class="box-1">
+            <h3>設 計</h3>
+            <p>服務設計是有效的計劃和組織一項服務中所涉及的人、基礎設施、通信交流以及物料等相關因素，從而提高用戶體驗和服務質量的設計活動</p>
+          </div>
+        </div>
+        <div class="col l3 m6 s12">
+          <div class="box-2">
+            <h3>品 牌</h3>
+            <p>服務設計是有效的計劃和組織一項服務中所涉及的人、基礎設施、通信交流以及物料等相關因素，從而提高用戶體驗和服務質量的設計活動</p>
+          </div>
+        </div>
+        <div class="col l3 m6 s12">
+          <div class="box-3">
+            <h3>方 案</h3>
+            <p>服務設計是有效的計劃和組織一項服務中所涉及的人、基礎設施、通信交流以及物料等相關因素，從而提高用戶體驗和服務質量的設計活動</p>
+          </div>
+        </div>
+        <div class="col l3 m6 s12">
+          <div class="box-4">
+            <h3>承 諾</h3>
+            <p>服務設計是有效的計劃和組織一項服務中所涉及的人、基礎設施、通信交流以及物料等相關因素，從而提高用戶體驗和服務質量的設計活動</p>
+          </div>
+        </div>
+      </div>
+    <!-- service end -->
+    </div>
+
+    <!-- price start -->
+    <div id="price">
+      <div class="center-align">
+        <h2 class="bottom-bar">定價方案</h2>
+      </div>
+      <div class="row">
+
+        <div class="col l4 s12">
+          <div class="card-box">
+            <ul class="card-list">
+              <li class="header"><h3>基礎</h3></li>
+              <li>存儲 <b>10GB</b></li>
+              <li>郵件 <b>10</b></li>
+              <li>域名 <b>10</b></li>
+              <li>在線支持</li>
+              <li>
+                <h2>¥ 66</h2>
+                <p>每月</p>
+              </li>
+              <li class="footer">
+                <button class="buttom">購 買</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col l4 s12">
+          <div class="card-box">
+            <ul class="card-list">
+              <li class="header"><h3>專業</h3></li>
+              <li>存儲 <b>10GB</b></li>
+              <li>郵件 <b>10</b></li>
+              <li>域名 <b>10</b></li>
+              <li>在線支持</li>
+              <li>
+                <h2>¥ 166</h2>
+                <p>每月</p>
+              </li>
+              <li class="footer">
+                <button class="buttom">購 買</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col l4 s12">
+          <div class="card-box">
+            <ul class="card-list">
+              <li class="header"><h3>高級</h3></li>
+              <li>存儲 <b>10GB</b></li>
+              <li>郵件 <b>10</b></li>
+              <li>域名 <b>10</b></li>
+              <li>在線支持</li>
+              <li>
+                <h2>¥ 266</h2>
+                <p>每月</p>
+              </li>
+              <li class="footer">
+                <button class="buttom">購 買</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    <!-- price end -->
+    </div>
+
+    <!-- about start -->
+    <div id="about">
+      <div class="center-align">
+        <h2 class="bottom-bar">關於我們</h2>
+      </div>
+      <div class="row">
+        <div class="col l4 s12">
+          <div class="card-box">
+            <div class="card">
+              <img src="https://unsplash.it/400/250?image=823" width="400" height="250" alt="簡·多伊">
+              <div class="card-content">
+                <h2>簡·多伊</h2>
+                <p>CEO & 創辦人</p>
+                <p>服務設計以為客戶設計策劃一系列易用、滿意、信賴、有效地服務為目標廣泛的運用於各項服務業。服務設計既可以是有形的，也可以是無形的</p>
+                <button class="buttom">聯繫</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col l4 s12">
+          <div class="card-box">
+            <div class="card">
+              <img src="https://unsplash.it/400/250?image=804" width="400" height="250" alt="簡·多伊">
+              <div class="card-content">
+                <h2>簡·多伊</h2>
+                <p>CEO & 創辦人</p>
+                <p>服務設計以為客戶設計策劃一系列易用、滿意、信賴、有效地服務為目標廣泛的運用於各項服務業。服務設計既可以是有形的，也可以是無形的</p>
+                <button class="buttom">聯繫</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col l4 s12">
+          <div class="card-box">
+            <div class="card">
+              <img src="https://unsplash.it/400/250?image=1027" width="400" height="250" alt="簡·多伊">
+              <div class="card-content">
+                <h2>簡·多伊</h2>
+                <p>CEO & 創辦人</p>
+                <p>服務設計以為客戶設計策劃一系列易用、滿意、信賴、有效地服務為目標廣泛的運用於各項服務業。服務設計既可以是有形的，也可以是無形的</p>
+                <button class="buttom">聯繫</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    <!-- about end -->
+    </div>
+
+    <!-- contact start -->
+    <div id="contact">
+      <div class="center-align">
+        <h2 class="bottom-bar">聯繫我們</h2>
+      </div>
+
+      <form class="" action="#" method="post">
+        <label for="name">姓名</label>
+        <input type="text" id="name" name="name" value="">
+        <label for="email">郵箱</label>
+        <input type="text" id="email" name="email" value="">
+        <label for="content">內容</label>
+        <input type="text" id="content" name="content" value="">
+        <button class="buttom">提交</button>
+      </form>
+
+    <!-- contact end -->
+    </div>
+
+    <!-- 主要內容end -->
+    </main>
+
+    <!-- 底部 -->
+    <footer class="footer">
+      <p class="icon-bar">
+        <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+      </p>
+      <p>powered by <a href="http://www.Celia.cn" target="_blank">Celia.cn</a></p>
+    </footer>
+
+    <script src="./js/project.js" charset="utf-8"></script>
+
+  </body>
+</html>
